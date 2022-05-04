@@ -1,0 +1,7 @@
+.section1 {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.heightMainPage {
+  height: 82vh;
+}

@@ -1,0 +1,26 @@
+nav {
+  height: 5.5vh;
+  background-color: black;
+}
+p {
+  color: white;
+}
+input {
+  width: 70vh;
+  height: 4vh;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 300;
+}
+
+@media (max-width: 915px) {
+  nav {
+    height: 11vh;
+  }
+  input {
+    width: 30vh;
+  }
+  .isMobile {
+    background-color: blue;
+  }
+}
