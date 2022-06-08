@@ -3,13 +3,18 @@ import styles from "./BasedOnWatched.module.css";
 import image1 from "../../assets/images/videdu1.jpg";
 import PreviousMap from "postcss/lib/previous-map";
 import Card2 from "../UI/Card2";
+import { useState } from "react";
 
 function BasedOnWatched(props) {
+  const [menuOpened, setMenuOpened] = useState(props.isMenuOpen);
+
+  console.log("onvideos");
+  console.log(menuOpened);
   return (
     <div
-      className={`mt-16 ml-5 grid grid-cols-2 gap-6 ${styles.heightMainPage}`}
+      className={`mt-4 ml-5 grid grid-cols-2 gap-6 ${styles.heightMainPage}`}
     >
-      <section className={`gap-y-8 ${styles.section1}`}>
+      <section className={`gap-y-8 p-5 ${styles.section1}`}>
         <Card />
         <Card />
         <Card />
@@ -18,7 +23,7 @@ function BasedOnWatched(props) {
         <Card />
       </section>
 
-      <section className={`mr-10 ${styles.section1}`}>
+      <section className={`mr-10 p-5 ${styles.section1}`}>
         <div className="gap-y-8 gap-x-5 grid grid-cols-3 ">
           <Card2 />
           <Card2 />

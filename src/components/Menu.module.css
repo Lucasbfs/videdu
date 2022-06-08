@@ -1,0 +1,17 @@
+.menu-bg {
+  position: absolute;
+  left: 70px;
+  height: 50vh;
+  border-radius: 0 20px 20px 20px;
+  background-color: #f0f0f0;
+}
+.menu-list {
+  display: block;
+  height: 50px;
+  margin-bottom: 2rem;
+  /* align-items: center; */
+}
+.menu-list:hover {
+  background-color: #701b65;
+  color: white;
+}
